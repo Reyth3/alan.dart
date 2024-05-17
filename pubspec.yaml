@@ -13,7 +13,7 @@ dependencies:
   convert: ^3.0.0
   equatable: ^2.0.0
   fixnum: ^1.0.0
-  grpc: ^3.0.0
+  grpc: ^3.2.4
   hex: ^0.2.0
   http: ^1.2.0
   json_annotation: ^4.4.0

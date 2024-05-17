@@ -50,7 +50,6 @@ void main() async {
   // 4. Broadcast the transaction
   final txSender = TxSender.fromNetworkInfo(networkInfo);
   final response = await txSender.broadcastTx(tx);
-
   // Check the result
   if (response.isSuccessful) {
     print('Tx sent successfully. Response: $response');
